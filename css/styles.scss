@@ -1,0 +1,126 @@
+$color-primary: #8e6a55;
+$color-secondary: #abad71;
+$color-pale: hsl(136, 11%, 60%);
+$color-mid: #495e4d;
+$color-dark: #374046;
+$color-black-transparent: rgba(0, 0, 0, 0.5);
+$color-teal: #17A2B8;
+
+$body-font: "Open Sans", sans-serif;
+$header-font: "Lobster", cursive;
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+  
+.navbar{
+    background-color: $color-mid;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+}
+  
+  
+.navbar-dark .navbar-brand {
+    color: #fff;
+}
+
+/*end of copied*/
+  
+
+body {
+    font-family: $body-font;
+}
+
+h1, h2, h3 {
+    font-family: $header-font;
+}
+
+h2 {
+    color: $color-primary;
+}
+
+header {
+    h2 {
+        color: $color-pale;
+    }
+}
+
+footer {
+    background-image: linear-gradient(to right, $color-secondary, $color-primary, $color-dark);
+    padding: 20px 0;
+    color: #fff;
+       a {
+           color: white
+
+         }
+}
+
+.jumbotron {
+    margin: 0;
+    padding: 30px;
+    background-image: linear-gradient(to right, $color-secondary, $color-primary, $color-dark);
+    color: white;
+}
+
+.tab-content {
+    border: 1px solid #DDD;
+    border-top: none;
+    padding: 10px;
+}
+
+.carousel-caption {
+    background-color: $color-black-transparent;
+}
+
+.carousel {
+    border: solid $color-secondary;
+}
+
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+}
+
+#reserveModal {
+    #reserve-header {
+        background-color: $color-teal;
+        color: #fff;
+    }
+
+}
+
+#loginModal {
+    #login-header {
+        background-color: $color-mid;
+        color: #fff;
+    }
+}
+
+body {
+    background-image: url("/img/backwall.jpg");
+}
+
+.blurryGround {
+    background-image: url("/img/back-blurry.jpg") ;
+    background-color: #cccccc;
+    background-size: 100%;
+}
+
+.border-success {
+    border-color: $color-mid;
+  }
+
+
+#page-wrap {
+    margin: 40px auto;
+    background: url("/img/back-blurry.jpg") ;
+    border: 10px solid white; padding: 30px;
+   -moz-border-radius: 30px; -webkit-border-radius: 30px; 
+}
+

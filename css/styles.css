@@ -1,0 +1,84 @@
+.row-content {
+  padding: 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 200px; }
+
+.navbar {
+  background-color: #495e4d;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1020; }
+
+.navbar-dark .navbar-brand {
+  color: #fff; }
+
+/*end of copied*/
+body {
+  font-family: "Open Sans", sans-serif; }
+
+h1, h2, h3 {
+  font-family: "Lobster", cursive; }
+
+h2 {
+  color: #8e6a55; }
+
+header h2 {
+  color: #8ea494; }
+
+footer {
+  background-image: linear-gradient(to right, #abad71, #8e6a55, #374046);
+  padding: 20px 0;
+  color: #fff; }
+  footer a {
+    color: white; }
+
+.jumbotron {
+  margin: 0;
+  padding: 30px;
+  background-image: linear-gradient(to right, #abad71, #8e6a55, #374046);
+  color: white; }
+
+.tab-content {
+  border: 1px solid #DDD;
+  border-top: none;
+  padding: 10px; }
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5); }
+
+.carousel {
+  border: solid #abad71; }
+
+#carouselButton {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 100; }
+
+#reserveModal #reserve-header {
+  background-color: #17A2B8;
+  color: #fff; }
+
+#loginModal #login-header {
+  background-color: #495e4d;
+  color: #fff; }
+
+body {
+  background-image: url("/img/backwall.jpg"); }
+
+.blurryGround {
+  background-image: url("/img/back-blurry.jpg");
+  background-color: #cccccc;
+  background-size: 100%; }
+
+.border-success {
+  border-color: #495e4d; }
+
+#page-wrap {
+  margin: 40px auto;
+  background: url("/img/back-blurry.jpg");
+  border: 10px solid white;
+  padding: 30px;
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px; }

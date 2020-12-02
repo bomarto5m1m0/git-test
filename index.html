@@ -33,8 +33,8 @@
                     <h2>a better way to camp</h2>
                 </div>
 
-                <div class="col-xs-12 col-md-4 col-xl-2 mt-4 ">
-                    <a role="button" data-toggle="modal" data-target="#reserveModal">Reserve Campsite</a>
+                <div class="col-xs-12 col-md-4 col-xl-2 mt-4  ">
+                    <a role="button" class="btn btn-success" id="reserveButton">Reserve Campsite</a>
                 </div>
             </div>
         </div>
@@ -43,7 +43,7 @@
     <div id="reserveModal" class="modal fade" role="dialog">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
-                <div class="modal-header bg-info text-white ">
+                <div id="reserve-header" class="modal-header">
                     <h3 class="modal-title">Reserve a Campsite</h3>
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                 </div>
@@ -123,7 +123,7 @@
                     <li class="nav-item"><a class="nav-link" href="contactus.html"><i class="fa fa-address-card fa-lg"></i> Contact</a></li>
                 </ul>
                 <span class="navbar-text ml-auto">
-                    <a role="button" data-toggle="modal" data-target="#loginModal">
+                    <a role="button" class="btn btn-success" id="loginButton">
                         <i class="fa fa-sign-in"></i> Login
                     </a>
                 </span>
@@ -134,7 +134,7 @@
     <div id="loginModal" class="modal fade" role="dialog">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
-                <div class="modal-header">
+                <div id="login-header" class="modal-header" >
                     <h3 class="modal-title">Login</h3>
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                 </div>
@@ -168,7 +168,7 @@
         </div>
     </div>
 
-    <div class="container">
+    <div class="container" >
         <div class="row row-content">
             <div class="col-md-8 mx-auto">
                 <div id="homeCarousel" class="carousel slide" data-ride="carousel">
@@ -207,7 +207,7 @@
             </div>
         </div>
 
-        <div class="row row-content align-items-center">
+        <div class="row row-content align-items-center blurryGround border rounded-top" >
             <div class="col-sm-4 order-sm-last col-md-3">
                 <h2 class="text-sm-right">Discover & Review</h2>
             </div>
@@ -225,8 +225,8 @@
     
         
 
-        <div class="row row-content align-items-center">
-            <div class="col-sm-4  col-md-3">
+        <div class="row row-content align-items-center blurryGround border">
+            <div class="col-sm-4 order-sm-last col-md-3">
                 <h2 class="text-sm-right">Featured Campsites</h2>
             </div>
             <div class="col">
@@ -242,7 +242,7 @@
     
     
 
-        <div class="row row-content align-items-center">
+        <div class="row row-content align-items-center blurryGround border rounded-bottom">
             <div class="col-sm-4 order-sm-last col-md-3">
                 <h2 class="text-sm-right">Our Community Partners</h2>
             </div>
